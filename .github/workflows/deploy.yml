@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main"] # Pastikan branch utamanya 'main'
 
 permissions:
   contents: read
@@ -25,13 +25,13 @@ jobs:
           node-version: 20
           cache: "npm"
       - name: Install Dependencies
-        run: npm install
+        run: npm install # Atau 'npm ci'
       - name: Build Project
         run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./dist"
+          path: "./dist" # Folder hasil build Vite
 
   deploy:
     environment:
