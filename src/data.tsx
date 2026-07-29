@@ -49,7 +49,7 @@ export const projects = [
     image: `${base}images/pangkas-main.svg`,
     mobileUiImages: [
       `${base}images/pangkas-main.svg`,
-      `${base}images/pangkas-1.png`,
+      `${base}images/pangkas-1.jpeg`,
       `${base}images/pangkas-2.svg`,
       `${base}images/pangkas-3.svg`,
     ],
@@ -64,9 +64,9 @@ export const projects = [
     tech: ["Flutter", "Dart", "RESTful API", "Dio", "Provider"],
     image: `${base}images/paten-main.png`,
     mobileUiImages: [
-      `${base}images/paten-main.png`,
-      `${base}images/paten-2.png`,
-      `${base}images/paten-3.png`,
+      `${base}images/paten-main.svg`,
+      `${base}images/paten-2.svg`,
+      `${base}images/paten-3.svg`,
     ],
     hardwareImages: [],
   },
