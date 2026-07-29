@@ -46,10 +46,10 @@ export const projects = [
     description:
       "Mengembangkan antarmuka aplikasi mobile Flutter yang responsif berdasarkan rancangan Figma untuk visualisasi data struktur organisasi RT dan RW.\n\nMengimplementasikan fitur pencarian warga berbasis NIK yang dioptimalkan serta modul penambahan data warga. Membangun modul integrasi langsung ke nomor WhatsApp pengurus RT untuk mempercepat koordinasi.",
     tech: ["Flutter", "Dart", "RESTful API", "Dio", "Provider"],
-    image: `${base}images/pangkas-main.png`,
+    image: `${base}images/pangkas-main.svg`,
     mobileUiImages: [
-      `${base}images/pangkas-main.png`,
-      `${base}images/pangkas-1.svg`,
+      `${base}images/pangkas-main.svg`,
+      `${base}images/pangkas-1.png`,
       `${base}images/pangkas-2.svg`,
       `${base}images/pangkas-3.svg`,
     ],
