@@ -18,6 +18,8 @@ function App() {
   const [activeFilter, setActiveFilter] = useState("All");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
+  const base = import.meta.env.BASE_URL;
+
   const getNavClass = (tabName: string) => {
     return activeTab === tabName
       ? "text-sky-400 font-bold cursor-pointer transition-colors"
@@ -58,7 +60,7 @@ function App() {
         <aside className="lg:col-span-3 bg-[#1e1e1f] rounded-3xl p-6 border border-zinc-800 flex flex-col items-center h-fit xl:sticky xl:top-10">
           <div className="bg-[#2b2b2c] w-32 h-32 rounded-3xl mb-6 flex items-center justify-center overflow-hidden border border-zinc-700">
             <img
-              src="/images/1.png"
+              src={`${base}images/1.png`}
               alt="Foto Profil"
               className="w-full h-full object-cover"
             />
@@ -464,10 +466,10 @@ function App() {
                           <img
                             src={project.image}
                             alt={project.title}
-                            className="w-full h-full object-cover transform group-hover:scale-110 duration-500"
+                            className="w-full h-full object-cover"
                           />
                         ) : (
-                          <div className="text-zinc-600 group-hover:text-sky-400 transition-colors transform group-hover:scale-110 duration-300">
+                          <div className="text-zinc-600 group-hover:text-sky-400 transition-colors">
                             <svg
                               className="w-12 h-12"
                               fill="none"
@@ -573,7 +575,7 @@ function App() {
                               <img
                                 src={pic}
                                 alt={`Mobile UI ${idx + 1}`}
-                                className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+                                className="w-full h-auto object-cover"
                               />
                             </div>
                           ),
@@ -600,7 +602,7 @@ function App() {
                               <img
                                 src={pic}
                                 alt={`Hardware ${idx + 1}`}
-                                className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+                                className="w-full h-auto object-cover"
                               />
                             </div>
                           ),
