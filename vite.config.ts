@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/', // <--- Ubah menjadi '/' saja
+  base: '/Web-Porto-Arief/', // <--- Kembalikan menggunakan nama repository
 })
