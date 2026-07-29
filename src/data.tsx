@@ -49,9 +49,9 @@ export const projects = [
     image: `${base}images/pangkas-main.png`,
     mobileUiImages: [
       `${base}images/pangkas-main.png`,
-      `${base}images/pangkas-1.jpeg`,
-      `${base}images/pangkas-2.png`,
-      `${base}images/pangkas-3.png`,
+      `${base}images/pangkas-1.svg`,
+      `${base}images/pangkas-2.svg`,
+      `${base}images/pangkas-3.svg`,
     ],
     hardwareImages: [],
   },
