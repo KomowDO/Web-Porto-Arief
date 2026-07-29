@@ -1,5 +1,7 @@
 // src/data.ts
 
+const base = import.meta.env.BASE_URL;
+
 export const personalInfo = {
   name: "Muhammad Arief Wicaksono P. S.",
   role: "Mobile UI/Frontend Developer",
@@ -29,14 +31,13 @@ export const projects = [
     description:
       "Mengembangkan aplikasi mobile dan arsitektur IoT untuk pemantauan kualitas air akuarium secara real-time serta otomatisasi pengurasan air adaptif.\n\nMengintegrasikan mikrokontroler ESP32 untuk memproses data dari 4 sensor monitoring (pH, TDS, kekeruhan, suhu) secara real-time melalui protokol MQTT dan WebSocket.\n\nInfrastruktur backend menggunakan Node.js, Express.js, MongoDB, dan Redis.",
     tech: ["Flutter", "ESP32", "Node.js", "MongoDB", "Redis", "MQTT"],
-    image: "/images/iot-1.jpeg",
-    // Dipisah khusus untuk Proyek IoT agar tampil rapi di halaman detail
+    image: `${base}images/iot-1.jpeg`,
     mobileUiImages: [
-      "/images/iotui-1.png",
-      "/images/iotui-2.png",
-      "/images/iotui-3.png",
+      `${base}images/iotui-1.png`,
+      `${base}images/iotui-2.png`,
+      `${base}images/iotui-3.png`,
     ],
-    hardwareImages: ["/images/iot-1.jpeg"],
+    hardwareImages: [`{base}images/iot-1.jpeg`],
   },
   {
     id: 2,
@@ -45,12 +46,12 @@ export const projects = [
     description:
       "Mengembangkan antarmuka aplikasi mobile Flutter yang responsif berdasarkan rancangan Figma untuk visualisasi data struktur organisasi RT dan RW.\n\nMengimplementasikan fitur pencarian warga berbasis NIK yang dioptimalkan serta modul penambahan data warga. Membangun modul integrasi langsung ke nomor WhatsApp pengurus RT untuk mempercepat koordinasi.",
     tech: ["Flutter", "Dart", "RESTful API", "Dio", "Provider"],
-    image: "/images/pangkas-main.png",
+    image: `${base}images/pangkas-main.png`,
     mobileUiImages: [
-      "/images/pangkas-main.png",
-      "/images/pangkas-1.jpeg",
-      "/images/pangkas-2.png",
-      "/images/pangkas-3.png",
+      `${base}images/pangkas-main.png`,
+      `${base}images/pangkas-1.jpeg`,
+      `${base}images/pangkas-2.png`,
+      `${base}images/pangkas-3.png`,
     ],
     hardwareImages: [],
   },
@@ -61,11 +62,11 @@ export const projects = [
     description:
       "Membangun tata letak mobile dan melakukan pemotongan komponen UI (slicing) untuk manajemen daftar pelacakan internal Tenaga Harian Lepas (THL).\n\nMengintegrasikan formulir data terstruktur untuk proses pendaftaran anggota THL baru yang divalidasi dengan nomor nomenklatur resmi melalui jaringan API aman.",
     tech: ["Flutter", "Dart", "RESTful API", "Dio", "Provider"],
-    image: "/images/paten-main.png",
+    image: `${base}images/paten-main.png`,
     mobileUiImages: [
-      "/images/paten-main.png",
-      "/images/paten-2.png",
-      "/images/paten-3.png",
+      `${base}images/paten-main.png`,
+      `${base}images/paten-2.png`,
+      `${base}images/paten-3.png`,
     ],
     hardwareImages: [],
   },
@@ -76,8 +77,8 @@ export const projects = [
     description:
       "Merancang dan membangun komponen antarmuka portal informasi kesehatan daerah menggunakan ekosistem React dan TypeScript.\n\nMenerjemahkan prototipe visual dari Figma menjadi kode web siap pakai, berfokus pada kelancaran menu navigasi, struktur tata letak responsif, serta penataan fungsionalitas bagian liputan video instansi.",
     tech: ["React", "TypeScript", "Figma", "UI Slicing"],
-    image: "/images/dinkes.jpeg",
-    mobileUiImages: ["/images/dinkes.jpeg"],
+    image: `${base}images/dinkes.jpeg`,
+    mobileUiImages: [`{base}images/dinkes.jpeg`],
     hardwareImages: [],
   },
   {
@@ -87,8 +88,8 @@ export const projects = [
     description:
       "Mengembangkan antarmuka aplikasi mobile Flutter yang responsif dari prototipe visual grafis yang kompleks di Figma.\n\nMengimplementasikan fitur lokal pengingat jadwal olahraga (local workout reminder notifications) memanfaatkan paket Awesome Notifications dalam pengerjaan kolaboratif bersama rekan kuliah.",
     tech: ["Flutter", "Awesome Notifications", "Git", "Figma"],
-    image: "/images/woreps-main.jpg",
-    mobileUiImages: ["/images/woreps-1.jpg", "/images/woreps-2.jpg"],
+    image: `${base}images/woreps-main.jpg`,
+    mobileUiImages: [`{base}images/woreps-1.jpg`, `{base}images/woreps-2.jpg`],
     hardwareImages: [],
   },
 ];
