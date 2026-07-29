@@ -5,7 +5,7 @@ const base = import.meta.env.BASE_URL;
 export const personalInfo = {
   name: "Muhammad Arief Wicaksono P. S.",
   role: "Mobile UI/Frontend Developer",
-  bio: "Mahasiswa Teknik Informatika PENS yang berfokus pada Mobile Development menggunakan Flutter. Berpengalaman mengembangkan aplikasi mobile, mengintegrasikan REST API, serta membangun sistem IoT berbasis ESP32 untuk pemantauan data secara real-time.",
+  bio: "Lulusan D3 Teknik Informatika PENS yang memiliki minat mendalam pada pengembangan Mobile (Kotlin/Dart) serta sistem Internet of Things (IoT) yang berfokus pada bidang akuakultur (ikan) dan tanaman. Berpengalaman membangun aplikasi mobile interaktif serta mengintegrasikan perangkat keras untuk otomatisasi dan pemantauan data secara real-time.",
   contact: {
     email: "arief.bogaro@gmail.com",
     github: "https://github.com/KomowDO",
@@ -13,13 +13,13 @@ export const personalInfo = {
 };
 
 export const skills = [
-  "Flutter, Dart, Provider, Dio",
+  "Flutter, Dart, Kotlin, Mobile Dev",
   "React & TypeScript",
   "Node.js, Express.js, REST API",
   "MongoDB, Redis, PostgreSQL, MySQL",
   "CodeIgniter 4, PHP",
   "IoT (ESP32, MQTT, WebSocket, C++)",
-  "Figma, UI/UX Slicing",
+  "Figma, UI/UX Design",
   "Git, GitHub, Notion",
 ];
 
@@ -48,10 +48,10 @@ export const projects = [
     tech: ["Flutter", "Dart", "RESTful API", "Dio", "Provider", "UI/UX Design"],
     image: `${base}images/pangkas-main.png`,
     mobileUiImages: [
-      `${base}images/pangkas-main.png`,
+      `${base}images/pangkas-main.svg`,
       `${base}images/pangkas-1.jpeg`,
-      `${base}images/pangkas-2.png`,
-      `${base}images/pangkas-3.png`,
+      `${base}images/pangkas-2.svg`,
+      `${base}images/pangkas-3.svg`,
     ],
     hardwareImages: [],
   },
@@ -64,9 +64,9 @@ export const projects = [
     tech: ["Flutter", "Dart", "RESTful API", "Dio", "Provider", "UI/UX Design"],
     image: `${base}images/paten-main.png`,
     mobileUiImages: [
-      `${base}images/paten-main.png`,
-      `${base}images/paten-2.png`,
-      `${base}images/paten-3.png`,
+      `${base}images/paten-main.svg`,
+      `${base}images/paten-2.svg`,
+      `${base}images/paten-3.svg`,
     ],
     hardwareImages: [],
   },
