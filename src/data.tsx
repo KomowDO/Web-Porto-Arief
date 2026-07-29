@@ -37,7 +37,7 @@ export const projects = [
       `${base}images/iotui-2.png`,
       `${base}images/iotui-3.png`,
     ],
-    hardwareImages: [`{base}images/iot-1.jpeg`],
+    hardwareImages: [`${base}images/iot-1.jpeg`],
   },
   {
     id: 2,
@@ -78,7 +78,7 @@ export const projects = [
       "Merancang dan membangun komponen antarmuka portal informasi kesehatan daerah menggunakan ekosistem React dan TypeScript.\n\nMenerjemahkan prototipe visual dari Figma menjadi kode web siap pakai, berfokus pada kelancaran menu navigasi, struktur tata letak responsif, serta penataan fungsionalitas bagian liputan video instansi.",
     tech: ["React", "TypeScript", "Figma", "UI Slicing"],
     image: `${base}images/dinkes.jpeg`,
-    mobileUiImages: [`{base}images/dinkes.jpeg`],
+    mobileUiImages: [`${base}images/dinkes.jpeg`],
     hardwareImages: [],
   },
   {
@@ -89,7 +89,10 @@ export const projects = [
       "Mengembangkan antarmuka aplikasi mobile Flutter yang responsif dari prototipe visual grafis yang kompleks di Figma.\n\nMengimplementasikan fitur lokal pengingat jadwal olahraga (local workout reminder notifications) memanfaatkan paket Awesome Notifications dalam pengerjaan kolaboratif bersama rekan kuliah.",
     tech: ["Flutter", "Awesome Notifications", "Git", "Figma"],
     image: `${base}images/woreps-main.jpg`,
-    mobileUiImages: [`{base}images/woreps-1.jpg`, `{base}images/woreps-2.jpg`],
+    mobileUiImages: [
+      `${base}images/woreps-1.jpg`,
+      `${base}images/woreps-2.jpg`,
+    ],
     hardwareImages: [],
   },
 ];
